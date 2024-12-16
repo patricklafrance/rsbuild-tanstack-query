@@ -1,0 +1,33 @@
+{
+    "name": "rspack-tanstack-query",
+    "version": "0.0.0",
+    "private": true,
+    "license": "Apache-2.0",
+    "type": "module",
+    "scripts": {
+        "dev": "rsbuild dev --config rsbuild.dev.ts"
+    },
+    "dependencies": {
+        "@tanstack/react-query": "5.59.20",
+        "react": "19.0.0",
+        "react-dom": "19.0.0"
+    },
+    "devDependencies": {
+        "@rsbuild/core": "1.1.10",
+        "@squide/firefly-rsbuild-configs": "https://pkg.pr.new/gsoft-inc/wl-squide/@squide/firefly-rsbuild-configs@225",
+        "@types/react": "19.0.1",
+        "@types/react-dom": "19.0.2",
+        "@typescript-eslint/parser": "8.18.0",
+        "@workleap/browserslist-config": "2.0.1",
+        "@workleap/eslint-plugin": "3.2.4",
+        "@workleap/typescript-configs": "3.0.2",
+        "browserslist": "4.24.3",
+        "eslint": "8.57.0",
+        "nodemon": "3.1.9",
+        "typescript": "5.5.4"
+    },
+    "engines": {
+        "node": ">=21.1.0"
+    },
+    "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab"
+}
