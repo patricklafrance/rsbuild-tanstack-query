@@ -1,8 +1,6 @@
 {
-    "extends": "@workleap/typescript-configs/web-application.json",
-    "compilerOptions": {
-        "incremental": true,
-        "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
-    },
-    "exclude": ["dist", "node_modules"]
+    "extends": "@workleap/typescript-configs/monorepo-workspace.json",
+    "exclude": ["packages", "app", "node_modules"],
+    // Prevent TS18003 since there are no TS files at the root at the moment.
+    "references": []
 }

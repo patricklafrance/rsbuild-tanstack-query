@@ -1,5 +1,5 @@
+import { Toto } from "@rsbuild-tanstack-query/lib";
 import { QueryProvider } from "./QueryProvider.tsx";
-import { Toto } from "./Toto.tsx";
 
 export function App() {
     return (
